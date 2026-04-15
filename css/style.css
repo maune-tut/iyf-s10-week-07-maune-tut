@@ -1,0 +1,84 @@
+    :root {
+        --primary: #00d2ff;
+        --bg: #121212;
+        --card: #1e1e1e;
+        --text: #5ccdcd00;
+    }
+
+    /* 1. Make the whole page background dark */
+body { 
+    background-color: #121212; 
+    color: rgba(220, 26, 26, 0.486); 
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* 2. Fix the Product Cards */
+.product-card { 
+    background: #1e1e1e; 
+    color: rgba(126, 132, 54, 0.676); /* This makes sure the Name and Price are white */
+    padding: 20px; 
+    border-radius: 12px; 
+    border: 1px solid #333;
+    text-align: center;
+}
+
+/* 3. Specifically target the headings and paragraphs in the cards */
+.product-card h3 {
+    color: #00d2ff; /* Your Cyan color for the product name */
+    margin: 10px 0;
+}
+
+.product-card p {
+    color: #763c8571; /* Light gray for the price */
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.icon { 
+    font-size: 50px; 
+    margin-bottom: 10px; 
+    display: block;
+}
+
+    .product-card:hover { 
+        transform: translateY(-5px); 
+        border-color: var(--primary); 
+    }
+
+    .icon { font-size: 50px; margin-bottom: 10px; display: block; }
+
+    /* Buttons */
+    button { 
+        cursor: pointer; 
+        background: var(--primary); 
+        color: #f679d7; 
+        border: none; 
+        padding: 10px 20px; 
+        border-radius: 6px; 
+        font-weight: bold;
+        width: 100%;
+    }
+
+    button:hover { opacity: 0.9; box-shadow: 0 0 15px rgba(0, 210, 255, 0.4); }
+
+    /* Cart Section */
+    .cart-section { background: var(--card); padding: 20px; border-radius: 12px; }
+    
+    .cart-item { 
+        background: #01ffe663; 
+        padding: 15px; 
+        margin: 10px 0; 
+        border-radius: 8px; 
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+    }
+
+    input[type="number"] {
+        background: #333;
+        color: rgba(223, 15, 15, 0.594);
+        border: 1px solid #444;
+        padding: 5px;
+        border-radius: 4px;
+        width: 50px;
+    }
