@@ -32,4 +32,4 @@ I learned how to use `JSON.stringify` and `JSON.parse` to handle objects in loca
 The biggest challenge was moving from a single JS file to a modular structure. I solved it by organizing everything into a `/js` folder and using `type="module"`.
 
 ## Live Demo (if deployed)
-[View Live Demo](https://your-deployed-url.com)
+[View Live Demo](https://maune-tut.github.io/iyf-s10-week-07-maune-tut/)
